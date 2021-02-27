@@ -1,0 +1,28 @@
+<h1>ABALONE AGE PREDICTION</h1>
+<h2>Please enter your measurements below:</h2>
+<form  method="POST">
+    {# This hidden_tag is a CSRF security feature. #}
+    {{ form.hidden_tag() }}
+    {{ form.length.label }} {{form.length}}
+    <br>
+    <br>
+    {{ form.diameter.label}} {{form.diameter}}
+    <br>
+    <br>
+    {{form.height.label}} {{form.height}}
+    <br>
+    <br>
+    {{form.whole_wgt.label}} {{form.whole_wgt}}
+    <br>
+    <br>
+    {{form.shucked_wgt.label}} {{form.shucked_wgt}}
+    <br>
+    <br>
+    {{form.viscera_wgt.label}} {{form.viscera_wgt}}
+    <br>
+    <br>
+    {{form.shell_wgt.label}} {{form.shell_wgt}}
+    <br>
+    <br>
+    {{ form.submit() }}
+</form>
