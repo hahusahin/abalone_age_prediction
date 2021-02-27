@@ -11,7 +11,7 @@ The goal of this project is to generate a ANN model to predict an Abalone's age 
 
 ### Deployment
 * A Flask app/script is created. After training finished, the model and scaler are saved and then used in this Flask app.
-* You can reach the web link from here: [https://abalone-prediction-deployment.herokuapp.com/]
+* You can reach the web link from here: https://abalone-prediction-deployment.herokuapp.com/
 * First enter the pysical measures of abalone and then press "Predict" button, my model will calculate it's prediction and will display it in a new page.
 
 ### Files
